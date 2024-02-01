@@ -1,0 +1,10 @@
+/* Ajoutez ceci à votre fichier CSS */
+.custom-success-button {
+  margin-right: 10px;
+  background-color: green; /* Couleur de fond verte */
+  color: white; /* Couleur du texte blanc */
+}
+
+.custom-success-button:hover {
+  background-color: darkgreen; /* Couleur de fond verte au survol */
+}

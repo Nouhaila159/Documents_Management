@@ -1,0 +1,67 @@
+<div class="container mt-4">
+  <div *ngIf="isuser">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-around">
+        <div class="card card_custom card-red mb-4">
+          <div class="card-body">
+            <h3 style="text-align: center">Total Documents</h3>
+            <p class="nbr">{{ documentCount }}</p>
+          </div>
+        </div>
+
+        <div class="card card_custom card-yellow mb-4">
+          <div class="card-body">
+            <h3 style="text-align: center">Total Folders</h3>
+            <p class="nbr">{{ folderCount }}</p>
+          </div>
+        </div>
+        <div class="card card_custom mb-2 p-1">
+          <div class="card-body">
+            <h3 style="text-align: center">User Profile</h3>
+            <p><strong>Username: </strong>{{ username }}</p>
+            <p><strong>Name: </strong>{{ name }}</p>
+            <p><strong>Email: </strong>{{ userEmail }}</p>
+            <p><strong>Gender: </strong>{{ userGender }}</p>
+          </div>
+        </div>
+
+      </div>
+      </div>
+  </div>
+  <div *ngIf="isadmin">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-around">
+        <div class="card card_custom card-blue mb-4">
+          <div class="card-body">
+            <h3 style="text-align: center">Total Users</h3>
+            <p class="nbr">{{ userCount }}</p>
+          </div>
+        </div>
+
+        <div class="card card_custom card-green mb-4">
+          <div class="card-body">
+            <h3 style="text-align: center">Status Active</h3>
+            <p class="nbr">{{ activeUserCount }}</p>
+          </div>
+        </div>
+
+        <div class="card card_custom card-yellow mb-4">
+          <div class="card-body">
+            <h3 style="text-align: center">Status Inactive</h3>
+            <p class="nbr">{{ inactiveUserCount }}</p>
+          </div>
+        </div>
+
+        <div class="card card_custom card-red mb-4">
+          <div class="card-body">
+            <h3 style="text-align: center">Total Admins</h3>
+            <p class="nbr">{{ adminCount }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+

@@ -1,0 +1,13 @@
+.example-form-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  margin-top: 10px;
+  display: flex;
+}
+
+.back-to-login-button {
+  margin-left: 10px;
+}

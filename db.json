@@ -1,0 +1,141 @@
+{
+  "user": [
+    {
+      "id": "ohtman latrache",
+      "name": "ohtman",
+      "password": "T24xMkBA",
+      "email": "ohtman@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "nouhaila",
+      "name": "nouha",
+      "password": "Tm8xMkBA",
+      "email": "nouhaila@gmail.com",
+      "gender": "female",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "Fatima Latrache",
+      "name": "Fatima",
+      "password": "RmwxMkA=",
+      "email": "fatima@gmail.com",
+      "gender": "female",
+      "role": "user",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "admin",
+      "name": "Admin"
+    }
+  ],
+  "documents": [
+    {
+      "id": 2,
+      "title": "Document 2",
+      "path": "/path/to/document2",
+      "type": "PDF",
+      "sizeInBytes": 2048,
+      "ownerId": "nouhaila",
+      "folderId": 2,
+      "lastModified": "2024-01-31T13:45:00"
+    },
+    {
+      "id": 5,
+      "title": "NDJZENLDFE",
+      "path": "/path/to/NDJZENLDFE",
+      "type": "CSV",
+      "sizeInBytes": "24",
+      "ownerId": "nouhaila",
+      "folderId": 4,
+      "lastModified": "2024-02-01T14:04:13.504Z"
+    },
+    {
+      "id": 6,
+      "title": "oeifjepf",
+      "path": "/path/to/oeifjepf",
+      "type": "Text",
+      "sizeInBytes": "1321",
+      "ownerId": "nouhaila",
+      "folderId": 4,
+      "lastModified": "2024-02-01T14:05:04.171Z"
+    },
+    {
+      "id": 7,
+      "title": "hfor\"f",
+      "path": "/path/to/hfor\"f",
+      "type": "Image",
+      "sizeInBytes": "133",
+      "ownerId": "Fatima",
+      "folderId": 5,
+      "lastModified": "2024-02-01T14:59:56.205Z"
+    },
+    {
+      "id": 8,
+      "title": "JAVA",
+      "path": "/Desktop/IT/JAVA",
+      "type": "PPT",
+      "sizeInBytes": "120",
+      "ownerId": "Fatima Latrache",
+      "folderId": 7,
+      "lastModified": "2024-02-01T21:22:59.196Z"
+    },
+    {
+      "id": 9,
+      "title": "Algebra",
+      "path": "/Desktop/Mathematics/Algebra",
+      "type": "Text",
+      "sizeInBytes": "230",
+      "ownerId": "Fatima Latrache",
+      "folderId": 6,
+      "lastModified": "2024-02-01T21:23:04.511Z"
+    }
+  ],
+  "folders": [
+    {
+      "id": 2,
+      "name": "Dossier 2",
+      "ownerId": "nouhaila",
+      "lastModified": "2024-01-31T15:10:00"
+    },
+    {
+      "name": "testt",
+      "ownerId": "nouhaila",
+      "lastModified": "2024-02-01T13:51:15.383Z",
+      "id": 4
+    },
+    {
+      "name": "EFEF",
+      "ownerId": "Fatima",
+      "lastModified": "2024-02-01T14:59:42.532Z",
+      "id": 5
+    },
+    {
+      "name": "Mathematics",
+      "ownerId": "Fatima Latrache",
+      "lastModified": "2024-02-01T21:08:06.326Z",
+      "id": 6
+    },
+    {
+      "name": "IT",
+      "ownerId": "Fatima Latrache",
+      "lastModified": "2024-02-01T21:08:27.863Z",
+      "id": 7
+    },
+    {
+      "name": "Test",
+      "ownerId": "Fatima Latrache",
+      "lastModified": "2024-02-01T21:23:30.723Z",
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<!-- Toolbar -->
+<div class="toolbar"  *ngIf="isMenuVisible" role="banner">
+  <img
+    width="40"
+    alt="Angular Logo"
+    src="
+    https://play-lh.googleusercontent.com/OShvcDaxjB52H36PMraSfvqCdisuZbCqvcSdhBCgLmZmUOKEgv-A-jWPl3vOD1Jrwcg
+"
+  />
+  <button mat-button routerLink="" >Home</button>
+  <button mat-button *ngIf="isadmin" routerLink="/user">User</button>
+  <button mat-button *ngIf="isuser" routerLink="/folders">Folders</button>
+  <button mat-button *ngIf="isuser" routerLink="/documents">Documents</button>
+
+
+  <div class="spacer"></div>
+
+  <span  style="margin-right: 10px" >Welcome, {{ username }}</span>
+  <button mat-flat-button style="margin-right: 20px ; color: darkgreen " routerLink="/login">Logout</button>
+</div>
+
+<div class="content" style="width: 100%; display: block;" role="main">
+  <router-outlet></router-outlet>
+</div>

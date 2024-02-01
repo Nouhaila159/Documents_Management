@@ -1,0 +1,26 @@
+/* Ajoutez ceci à votre fichier CSS */
+.custom-success-button {
+  background-color: green; /* Couleur de fond verte */
+  color: white; /* Couleur du texte blanc */
+}
+
+.custom-success-button:hover {
+  background-color: darkgreen; /* Couleur de fond verte au survol */
+}
+
+.custom-mat-table {
+  width: 100%;
+}
+
+.custom-column {
+  width: 20%/* Alignez le texte au centre si nécessaire */
+}
+
+.inline-buttons {
+  display: flex;
+  gap: 5px; /* Ajoutez une marge entre les deux boutons */
+}
+
+.inline-buttons a {
+  flex: 1; /* Ajustez la largeur des boutons pour les aligner */
+}
