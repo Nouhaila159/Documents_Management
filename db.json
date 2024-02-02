@@ -26,6 +26,15 @@
       "gender": "female",
       "role": "user",
       "isactive": true
+    },
+    {
+      "id": "hdhsio",
+      "name": "nouha",
+      "password": "Tm8xMkBA",
+      "email": "h@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": false
     }
   ],
   "role": [

@@ -25,6 +25,22 @@ export class RegisterComponent {
     isactive: this.builder.control(false)
   });
 
+  getErrorMessage(controlName: string): string {
+    const control = this.registerform.get(controlName);
+
+    if (control && control.hasError('required')) {
+      return 'This field is required';
+    } else if (control && control.hasError('minlength')) {
+      return 'Minimum length is 5 characters';
+    } else if (control && control.hasError('email')) {
+      return 'Enter a valid email address';
+    } else if (control && control.hasError('pattern')) {
+      return 'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character.';
+    }
+
+    return '';
+  }
+
   proceedregister() {
     if (this.registerform.valid) {
       const username = this.registerform.value.id;

@@ -6,20 +6,28 @@
     <form class="example-form example-form-column" [formGroup]="registerform" (ngSubmit)="proceedregister()">
       <mat-form-field class="example-full-width">
         <mat-label>Username</mat-label>
-        <input matInput formControlName="id" >
+        <input matInput formControlName="id">
+        <mat-error>{{ getErrorMessage('id') }}</mat-error>
       </mat-form-field>
+
       <mat-form-field class="example-full-width">
         <mat-label>Name</mat-label>
-        <input matInput formControlName="name" >
+        <input matInput formControlName="name">
+        <mat-error>{{ getErrorMessage('name') }}</mat-error>
       </mat-form-field>
+
       <mat-form-field class="example-full-width">
         <mat-label>Password</mat-label>
-        <input type="password" matInput formControlName="password" >
+        <input type="password" matInput formControlName="password">
+        <mat-error>{{ getErrorMessage('password') }}</mat-error>
       </mat-form-field>
+
       <mat-form-field class="example-full-width">
         <mat-label>Email</mat-label>
-        <input matInput formControlName="email" >
+        <input matInput formControlName="email">
+        <mat-error>{{ getErrorMessage('email') }}</mat-error>
       </mat-form-field>
+
       <mat-radio-group formControlName="gender" aria-label="Select an option">
         <mat-radio-button value="male">Male</mat-radio-button>
         <mat-radio-button value="female">Female</mat-radio-button>
